@@ -6,7 +6,11 @@ export const TABACCO = [
     flavor: "Виноградный чупа-чупс",
     company: "Black Burn",
     line: "Основная",
-    strength: 'Средняя'
+    strength: "Средняя",
+    rating: 12,
+    grade: 1,
+    review: 122,
+    view: 1221,
   },
   {
     id: 2,
@@ -15,7 +19,11 @@ export const TABACCO = [
     flavor: "Бузина",
     company: "Duft",
     line: "Основная",
-    strength: 'Средняя'
+    strength: "Средняя",
+    rating: 8,
+    grade: 2,
+    review: 142,
+    view: 1441,
   },
   {
     id: 3,
@@ -24,7 +32,11 @@ export const TABACCO = [
     flavor: "Жевачка",
     company: "Sebero",
     line: "Sebero black",
-    strength: 'Крепкая'
+    strength: "Крепкая",
+    rating: 2,
+    grade: 5,
+    review: 112,
+    view: 400,
   },
   {
     id: 4,
@@ -33,7 +45,11 @@ export const TABACCO = [
     flavor: "Джин",
     company: "Jent",
     line: "Alcohol line",
-    strength: 'Средняя'
+    strength: "Средняя",
+    rating: 6,
+    grade: 20,
+    review: 2,
+    view: 35,
   },
   {
     id: 5,
@@ -42,6 +58,10 @@ export const TABACCO = [
     flavor: "Барбарис",
     company: "Хулиган",
     line: "Хулиган HARD",
-    strength: 'Крепкая'
+    strength: "Крепкая",
+    rating: 1,
+    grade: 123,
+    review: 11,
+    view: 240,
   },
 ];

@@ -1,12 +1,13 @@
+import { FaFire } from "react-icons/fa";
 import TabaccoCard from "./TabaccoCard";
 import { TabaccoList } from "./TabaccoList";
 
 function App() {
   return (
-    <div className="w-200 m-20 ml-120">
-      <div className="bg-gray-900 border-2 border-blue-500 rounded-lg">
-        <h1 className="text-3xl font-bold text-center py-4 text-blue-400">
-          В тренде! 🔥
+    <div className="w-screen mx-40 my-20">
+      <div className="bg-gray-900 border-2 border-blue-500 rounded-lg w-[80%]">
+        <h1 className="text-3xl font-bold my-8 text-purple-400 flex justify-center">
+          В ТРЕНДЕ! <FaFire className="text-purple-400" />
         </h1>
         <TabaccoList />
       </div>

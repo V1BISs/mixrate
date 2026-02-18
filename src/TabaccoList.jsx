@@ -5,7 +5,7 @@ export const TabaccoList = () => {
   return (
     <div className="">
         {TABACCO.map(tabacco => (
-            <TabaccoCard key={tabacco.id} tabacco={tabacco}/>
+            <TabaccoCard key={`${tabacco.tabbacoName}-${tabacco.company}-${tabacco.flavor}`} tabacco={tabacco}/>
         ))}
     </div>
   )
