@@ -1,11 +1,11 @@
 import ProductStats from "./ProductStats";
 
-const TabaccoCard = ({ tabacco }) => {
+const TabaccoCard = ({ tabacco, itemNumber }) => {
   return (
     <div className="flex w-[calc(90%-2px)] border-2 rounded-xl border-blue-500 p-5 mb-10 mx-auto transition-transform duration-300 hover:scale-105 cursor-pointer">
       <div className="flex ml-5 mr-10">
         <div className="text-5xl font-black text-blue-500 mr-5 flex items-center justify-center">
-          {tabacco.id}.
+          {itemNumber}.
         </div>
         <img
           className="w-32 h-32 rounded-lg shrink-0"
